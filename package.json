@@ -1,5 +1,5 @@
 {
-    "name": "portfol.io",
+    "name": "ikiguide",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -49,14 +49,14 @@
         "s": "react-app-rewired start",
         "rs": "react-scripts start",
         "build": "react-app-rewired build",
-        "b": "react-app-rewired build && surge --project ./build --domain pbandj.surge.sh",
+        "b": "react-app-rewired build && surge --project ./build --domain ikiguide.surge.sh",
         "test": "react-app-rewired test",
         "t": "react-app-rewired test",
         "eject": "react-scripts eject",
         "pd": "prisma deploy",
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public",
-        "bss": "build-storybook -s public && surge --project ./storybook-static --domain story.pbandj.surge.sh",
+        "bss": "build-storybook -s public && surge --project ./storybook-static --domain story.ikiguide.surge.sh",
         "bit-x": "bit export banq.atomic-reaction",
         "bit-a": "bit add src/components/*",
         "bit-t": "bit tag --all"
